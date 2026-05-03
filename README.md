@@ -1,4 +1,4 @@
-# 🏪 Retail Store Sales Lakehouse Project (Databricks DLT)
+# Retail Store Sales Lakehouse Project (Databricks DLT)
 
 ## 📌 Overview
 
