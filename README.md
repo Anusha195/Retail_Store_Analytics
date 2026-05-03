@@ -236,6 +236,3 @@ Key business insights visualized:
 > “This project demonstrates a complete Lakehouse pipeline using Databricks DLT, implementing medallion architecture, SCD Type 2, and generating business insights such as customer segmentation, discount analysis, and inventory alerts, with performance optimization using Delta Lake features.”
 
 ---
-
-
-⭐ If you found this project useful, feel free to star the repository!
