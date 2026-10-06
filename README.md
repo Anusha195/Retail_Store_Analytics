@@ -1,6 +1,6 @@
 # Retail Store Sales Lakehouse Project (Databricks DLT)
 
-## 📌 Overview
+##  Overview
 
 This project implements an **end-to-end Lakehouse data pipeline** using **Databricks Delta Live Tables (DLT)** following the **Medallion Architecture (Bronze → Silver → Gold)**.
 
@@ -8,7 +8,7 @@ It processes retail data from multiple sources, performs cleaning and transforma
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 
 * Build scalable data pipelines using **DLT**
 * Implement **data quality checks & transformations**
@@ -20,7 +20,7 @@ It processes retail data from multiple sources, performs cleaning and transforma
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 Raw Data (S3)
@@ -36,7 +36,7 @@ Dashboard / Alerts
 
 ---
 
-## 🥉 Bronze Layer
+##  Bronze Layer
 
 * Ingests raw data using **Auto Loader (cloudFiles)**
 * Sources:
@@ -54,7 +54,7 @@ Dashboard / Alerts
 
 ---
 
-## 🥈 Silver Layer
+##  Silver Layer
 
 * Data cleaning & validation
 * Type casting and normalization
@@ -74,9 +74,9 @@ Dashboard / Alerts
 
 ---
 
-## 🥇 Gold Layer
+##  Gold Layer
 
-### ⭐ Fact Table
+###  Fact Table
 
 * **fact_sales**
 
@@ -89,7 +89,7 @@ Dashboard / Alerts
 
 ---
 
-### 📊 Dimension Tables
+###  Dimension Tables
 
 * dim_customer
 * dim_product
@@ -97,38 +97,38 @@ Dashboard / Alerts
 
 ---
 
-### 📈 Analytical Tables / KPIs
+###  Analytical Tables / KPIs
 
-#### 🔹 Revenue & Sales
+####  Revenue & Sales
 
 * monthly_revenue_trend
 * daily_store_sales
 * top_products
 
-#### 🔹 Customer Analytics
+####  Customer Analytics
 
 * customer_360
 * customer segmentation (Platinum, Gold, Silver, Bronze)
 
-#### 🔹 Discount Analysis
+####  Discount Analysis
 
 * discount_impact_analysis
 
   * before vs after discount revenue
   * discount loss %
 
-#### 🔹 Payment Insights
+####  Payment Insights
 
 * payment_analysis
 
-#### 🔹 Inventory Monitoring
+####  Inventory Monitoring
 
 * inventory_risk
 * store_inventory_alerts
 
 ---
 
-## 🚨 Alert System
+##  Alert System
 
 * Detects:
 
